@@ -31,6 +31,7 @@ fn print_pi_rounded() {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct SomeStuff {
     name: String,
     age: u16,
